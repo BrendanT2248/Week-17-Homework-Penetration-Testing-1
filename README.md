@@ -127,6 +127,8 @@ Answer: `search -f *recipe.txt`
 
 **Bonus: Run the command that exfiltrates the recipe*.txt file:**
 
+**Bonus: Run the command that exfiltrates the recipe*.txt file:**
+
 Answer:
 
 **You can also use Meterpreter's local exploit suggester to find possible exploits.**
