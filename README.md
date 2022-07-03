@@ -152,12 +152,24 @@ Answer: While still on the victim's machine in meterpreter shell: `run post/mult
 ### Bonus
 **A. Run a Meterpreter post script that enumerates all logged on users.**
 
-Answer:
+Answer: `run post/windows/gather/enum_logged_on_users`
+
+![logged on users](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/logged%20on%20users.PNG)
 
 **B. Open a Meterpreter shell.**
 
-Answer:
+Answer: `shell`
+
+![shell](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/shell.PNG)
+
+We are now in the native shell environment for the victim machine. In this case it is command prompt or cmd.
 
 **C. Run the command that displays the target's computer system information:**
 
-Answer:
+Answer: `sysinfo`
+
+![sysinfo 1](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/sysinfo%201.PNG)
+
+We can also gather further system information by going into the native shell and running a command that is similar. In this case we can use the `systeminfo` command that is used in cmd:
+
+![sysinfo 2](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/systeminfo.PNG)
