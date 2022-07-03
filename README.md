@@ -93,7 +93,9 @@ Answer: `search icecast`
 
 Answer: `use exploit/windows/http/icecast_header`
 
+We can also use the number in front of the exploit from the list provided from the search - `use 0`
 
+![use Icecast](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/use%20icecast.PNG)
 
 **Set the RHOST to the target machine.**
 
@@ -115,15 +117,15 @@ Answer: `exploit` (while in module)
 
 **Run the command that performs a search for the secretfile.txt on the target.**
 
-Answer: `search -f *secretfile.txt` 
+Answer: `search -f *secretfile*.txt` 
 
-This command will place a wildcard in front of 'secret' in 'secretfile.txt', meanning the search will look for anything that contains 'secretfile.txt' as well as any other text files that have anything before 'secretfile.txt'.
+This command will place a wildcard in front of and behind 'secretfile' in 'secretfile.txt', meaning the search will look for anything that contains 'secretfile.txt' as well as any other text files that have anything before or after 'secretfile.txt'.
 
 **You should now have a Meterpreter session open.**
 
 **Run the command to performs a search for the recipe.txt on the target:**
 
-Answer: `search -f *recipe.txt`
+Answer: `search -f *recipe*.txt`
 
 **Bonus: Run the command that exfiltrates the recipe*.txt file:**
 
