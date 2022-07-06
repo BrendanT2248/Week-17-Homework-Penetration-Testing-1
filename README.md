@@ -1,5 +1,11 @@
 # Week-17-Homework-Penetration-Testing-1
 
+## Report
+
+The report in which the following theory takes place can be found here:
+
+[Report](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-2/blob/main/Report.docx)
+
 ## Penetration Test Engagement
 
 In this activity, you will play the role of an independent penetration tester hired by GoodCorp Inc. to perform security tests against their CEO’s workstation.
@@ -50,7 +56,7 @@ You are now ready to begin the activity.
 
 Once you complete this assignment, submit your findings in the following document:
 
-Report.docx
+[Report](https://github.com/BrendanT2248/Week-17-Homework-Penetration-Testing-2/blob/main/Report.docx)
 
 ## Instructions
 
